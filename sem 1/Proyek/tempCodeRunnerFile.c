@@ -1,0 +1,1 @@
+if(!strcmp(user.password,password2)){

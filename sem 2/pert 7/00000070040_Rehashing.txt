@@ -1,0 +1,12 @@
+a. Dilakukan Rehasing untuk menghindari Colision pada array yang sudah terisi.
+b. Rehashing dilakukan saat tabel hash mencapai 70%.
+c. Langkah rehasing:
+	1. Ketika kapasitas tabel hash mencapai 70% atau lebih, program akan membuat tabel hash baru dengan ukuran dua kali lebih besar dari ukuran tabel hash sebelumnya.
+	2.Program akan mencari bilangan prima yang lebih besar dari ukuran tabel hash baru. Bilangan prima ini akan digunakan sebagai nilai batas atas saat program melakukan hashing.
+	3. Program akan menginisialisasi semua elemen pada tabel hash baru dengan nilai -1.
+	4. Program akan melakukan iterasi pada semua elemen pada tabel hash lama, menghitung ulang fungsi hashFunction untuk setiap elemen dengan menggunakan ukuran tabel hash yang baru
+	5. Program akan menempatkan setiap elemen ke dalam tabel hash baru dengan menggunakan index yang dihasilkan oleh fungsi hashFunction yang diperbarui.
+	6. Jika index pada tabel hash baru sudah terisi oleh elemen lain, program akan mencari index kosong selanjutnya dengan menambahkan 1 ke index tersebut. Jika program mencapai akhir tabel hash baru, maka program akan memulai pencarian index kosong dari awal tabel hash baru.
+	7. Setelah semua elemen pada tabel hash lama dipindahkan ke tabel hash baru, program akan membebaskan memori yang digunakan oleh tabel hash lama.
+d. Sieve of Eratosthenes adalah algoritma untuk menemukan bilangan prima sampai suatu batas tertentu dengan cara mengeliminasi bilangan-bilangan non-prima.
+e. Ya, bilangan prima untuk menentukan ukuran hash table yang baru setelah melakukan rehashing. Hal ini dilakukan untuk meminimalkan kemungkinan terjadinya collision dan mempercepat proses pencarian di dalam hash table.

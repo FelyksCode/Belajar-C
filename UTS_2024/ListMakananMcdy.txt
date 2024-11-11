@@ -1,0 +1,15 @@
+Big Mac#55000
+McChicken#45000
+Filet-O-Fish#47000
+McFlurry Oreo#25000
+Spicy McWings (4 pcs)#35000
+Cheeseburger#40000
+Double Cheeseburger#60000
+Egg McMuffin#30000
+Happy Meal#50000
+Caramel Frappe#27000
+Iced Latte#22000
+French Fries (Medium)#20000
+Apple Pie#15000
+Sundae (Chocolate)#23000
+Chicken Nuggets (6 pcs)#32000

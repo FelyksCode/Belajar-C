@@ -1,0 +1,1 @@
+printf("Tidak ada nim yang dicari");
